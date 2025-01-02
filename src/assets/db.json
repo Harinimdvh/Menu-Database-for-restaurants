@@ -1,0 +1,14 @@
+{
+  "foods": [
+    {
+      "id": "053f",
+      "Itemname": "Idle",
+      "Itemprice": 20
+    },
+    {
+      "id": "fe2b",
+      "Itemname": "Chicken 65",
+      "Itemprice": 100
+    }
+  ]
+}

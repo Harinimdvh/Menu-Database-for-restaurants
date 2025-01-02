@@ -1,0 +1,7 @@
+<h2>Food Details</h2>
+<p>ID : {{food.id}}</p>
+<p>FOOD NAME : {{food.Itemname}}</p>
+<p>FOOD PRICE : {{food.Itemprice}}</p>
+<button type="button" routerLink="/">Home</button>
+<button type="button" (click)="removefood()">Delete</button>
+<button type="button" routerLink="/edit/{{food.id}}"></button>

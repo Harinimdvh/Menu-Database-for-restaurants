@@ -1,0 +1,8 @@
+<h2>Food List</h2>
+<div>
+    <article *ngFor="let food of foods">
+        <h3>{{food.Itemname}}</h3>
+        <p>{{food.Itemprice}}</p>
+        <a routerLink="/details/{{food.id}}">View Details</a>
+    </article>
+</div>

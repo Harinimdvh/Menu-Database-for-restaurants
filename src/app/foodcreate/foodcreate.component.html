@@ -1,0 +1,15 @@
+<h2>Add new Food</h2>
+<form (ngSubmit)="savedata()">
+    <div>
+        <label>Food Name</label>
+        <input type="text" name="name" [(ngModel)]="food.Itemname">
+    </div>
+
+    <div>
+        <label>Food price</label>
+        <input type="number" name="price" [(ngModel)]="food.Itemprice">
+    </div>
+
+    <button type="submit">Submit</button>
+    <a routerLink="/">Home</a>
+</form>
